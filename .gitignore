@@ -1,2 +1,13 @@
-# Shelby CLI config (contains private keys!)
+# Ignore local config files that may contain secrets
 .shelby/
+
+# Ignore node_modules (standard)
+node_modules/
+
+# Ignore IDE/config files
+.vscode/
+*.code-workspace
+
+# Optional: if you ever create local env files
+.env
+.local
